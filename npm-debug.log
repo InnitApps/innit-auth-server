@@ -36,55 +36,55 @@
 8 warn package.json supertest@0.7.1 No repository field.
 9 verbose readDependencies using package.json deps
 10 verbose already installed skipping bcrypt@~0.7.6 /Users/robwormald/Dev/Code/innit-auth-server
-11 verbose already installed skipping underscore@~1.5.1 /Users/robwormald/Dev/Code/innit-auth-server
-12 verbose already installed skipping express@~3.3.5 /Users/robwormald/Dev/Code/innit-auth-server
-13 verbose already installed skipping passport@~0.1.17 /Users/robwormald/Dev/Code/innit-auth-server
-14 verbose already installed skipping passport-local@~0.1.6 /Users/robwormald/Dev/Code/innit-auth-server
+11 verbose already installed skipping revalidator@~0.1.5 /Users/robwormald/Dev/Code/innit-auth-server
+12 verbose already installed skipping underscore@~1.5.1 /Users/robwormald/Dev/Code/innit-auth-server
+13 verbose already installed skipping express@~3.3.5 /Users/robwormald/Dev/Code/innit-auth-server
+14 verbose already installed skipping passport@~0.1.17 /Users/robwormald/Dev/Code/innit-auth-server
 15 verbose already installed skipping passport-http@~0.2.2 /Users/robwormald/Dev/Code/innit-auth-server
-16 verbose already installed skipping connect-redis@~1.4.5 /Users/robwormald/Dev/Code/innit-auth-server
-17 verbose already installed skipping modinha@0.0.20 /Users/robwormald/Dev/Code/innit-auth-server
+16 verbose already installed skipping passport-local@~0.1.6 /Users/robwormald/Dev/Code/innit-auth-server
+17 verbose already installed skipping connect-redis@~1.4.5 /Users/robwormald/Dev/Code/innit-auth-server
 18 verbose already installed skipping async@~0.2.9 /Users/robwormald/Dev/Code/innit-auth-server
-19 verbose already installed skipping cors@~1.0.1 /Users/robwormald/Dev/Code/innit-auth-server
-20 verbose already installed skipping redis@~0.9.0 /Users/robwormald/Dev/Code/innit-auth-server
-21 verbose already installed skipping form-urlencoded@0.0.3 /Users/robwormald/Dev/Code/innit-auth-server
-22 verbose already installed skipping mellt@~1.0.0 /Users/robwormald/Dev/Code/innit-auth-server
-23 verbose already installed skipping modinha-redis@0.0.6 /Users/robwormald/Dev/Code/innit-auth-server
-24 verbose cache add [ 'innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git',
-24 verbose cache add   null ]
-25 verbose cache add name=undefined spec="innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git" args=["innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git",null]
-26 verbose parsed url { protocol: null,
-26 verbose parsed url   slashes: null,
-26 verbose parsed url   auth: null,
-26 verbose parsed url   host: null,
-26 verbose parsed url   port: null,
-26 verbose parsed url   hostname: null,
-26 verbose parsed url   hash: null,
-26 verbose parsed url   search: null,
-26 verbose parsed url   query: null,
-26 verbose parsed url   pathname: 'innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git',
-26 verbose parsed url   path: 'innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git',
-26 verbose parsed url   href: 'innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git' }
-27 verbose cache add name="innit-auth-server-ui" spec="git://github.com/InnitApps/innit-auth-server-ui.git" args=["innit-auth-server-ui","git://github.com/InnitApps/innit-auth-server-ui.git"]
-28 verbose parsed url { protocol: 'git:',
-28 verbose parsed url   slashes: true,
+19 verbose already installed skipping modinha@0.0.20 /Users/robwormald/Dev/Code/innit-auth-server
+20 verbose already installed skipping cors@~1.0.1 /Users/robwormald/Dev/Code/innit-auth-server
+21 verbose already installed skipping redis@~0.9.0 /Users/robwormald/Dev/Code/innit-auth-server
+22 verbose already installed skipping form-urlencoded@0.0.3 /Users/robwormald/Dev/Code/innit-auth-server
+23 verbose already installed skipping mellt@~1.0.0 /Users/robwormald/Dev/Code/innit-auth-server
+24 verbose already installed skipping modinha-redis@0.0.6 /Users/robwormald/Dev/Code/innit-auth-server
+25 verbose already installed skipping grunt@~0.4.1 /Users/robwormald/Dev/Code/innit-auth-server
+26 verbose cache add [ 'innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git',
+26 verbose cache add   null ]
+27 verbose cache add name=undefined spec="innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git" args=["innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
 28 verbose parsed url   auth: null,
-28 verbose parsed url   host: 'github.com',
+28 verbose parsed url   host: null,
 28 verbose parsed url   port: null,
-28 verbose parsed url   hostname: 'github.com',
+28 verbose parsed url   hostname: null,
 28 verbose parsed url   hash: null,
 28 verbose parsed url   search: null,
 28 verbose parsed url   query: null,
-28 verbose parsed url   pathname: '/InnitApps/innit-auth-server-ui.git',
-28 verbose parsed url   path: '/InnitApps/innit-auth-server-ui.git',
-28 verbose parsed url   href: 'git://github.com/InnitApps/innit-auth-server-ui.git' }
-29 verbose already installed skipping grunt@~0.4.1 /Users/robwormald/Dev/Code/innit-auth-server
-30 silly lockFile 3ecce1a1-nitApps-innit-auth-server-ui-git git://github.com/InnitApps/innit-auth-server-ui.git
-31 verbose lock git://github.com/InnitApps/innit-auth-server-ui.git /Users/robwormald/.npm/3ecce1a1-nitApps-innit-auth-server-ui-git.lock
-32 verbose addRemoteGit [ 'git://github.com/InnitApps/innit-auth-server-ui.git',
-32 verbose addRemoteGit   'master' ]
-33 verbose already installed skipping grunt-contrib-watch@~0.5.1 /Users/robwormald/Dev/Code/innit-auth-server
+28 verbose parsed url   pathname: 'innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git',
+28 verbose parsed url   path: 'innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git',
+28 verbose parsed url   href: 'innit-auth-server-ui@git://github.com/InnitApps/innit-auth-server-ui.git' }
+29 verbose cache add name="innit-auth-server-ui" spec="git://github.com/InnitApps/innit-auth-server-ui.git" args=["innit-auth-server-ui","git://github.com/InnitApps/innit-auth-server-ui.git"]
+30 verbose parsed url { protocol: 'git:',
+30 verbose parsed url   slashes: true,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: 'github.com',
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: 'github.com',
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '/InnitApps/innit-auth-server-ui.git',
+30 verbose parsed url   path: '/InnitApps/innit-auth-server-ui.git',
+30 verbose parsed url   href: 'git://github.com/InnitApps/innit-auth-server-ui.git' }
+31 verbose already installed skipping grunt-contrib-watch@~0.5.1 /Users/robwormald/Dev/Code/innit-auth-server
+32 silly lockFile 3ecce1a1-nitApps-innit-auth-server-ui-git git://github.com/InnitApps/innit-auth-server-ui.git
+33 verbose lock git://github.com/InnitApps/innit-auth-server-ui.git /Users/robwormald/.npm/3ecce1a1-nitApps-innit-auth-server-ui-git.lock
 34 verbose already installed skipping grunt-mocha-cov@~0.0.7 /Users/robwormald/Dev/Code/innit-auth-server
-35 verbose already installed skipping Faker@~0.5.11 /Users/robwormald/Dev/Code/innit-auth-server
+35 verbose addRemoteGit [ 'git://github.com/InnitApps/innit-auth-server-ui.git',
+35 verbose addRemoteGit   'master' ]
 36 verbose cache add [ 'chai@~1.7.2', null ]
 37 verbose cache add name=undefined spec="chai@~1.7.2" args=["chai@~1.7.2",null]
 38 verbose parsed url { protocol: null,
@@ -116,18 +116,18 @@
 42 verbose addNamed [ null, '>=1.7.2-0 <1.8.0-0' ]
 43 silly lockFile 6f2d4a87-chai-1-7-2 chai@~1.7.2
 44 verbose lock chai@~1.7.2 /Users/robwormald/.npm/6f2d4a87-chai-1-7-2.lock
-45 verbose already installed skipping grunt-release@~0.5.1 /Users/robwormald/Dev/Code/innit-auth-server
-46 verbose already installed skipping supertest@~0.7.1 /Users/robwormald/Dev/Code/innit-auth-server
-47 verbose already installed skipping sinon@~1.7.3 /Users/robwormald/Dev/Code/innit-auth-server
-48 verbose already installed skipping sinon-chai@~2.4.0 /Users/robwormald/Dev/Code/innit-auth-server
-49 silly addNameRange { name: 'chai', range: '>=1.7.2-0 <1.8.0-0', hasData: false }
-50 verbose already installed skipping coffee-script@~1.6.3 /Users/robwormald/Dev/Code/innit-auth-server
-51 verbose already installed skipping revalidator@~0.1.5 /Users/robwormald/Dev/Code/innit-auth-server
+45 verbose already installed skipping supertest@~0.7.1 /Users/robwormald/Dev/Code/innit-auth-server
+46 silly addNameRange { name: 'chai', range: '>=1.7.2-0 <1.8.0-0', hasData: false }
+47 verbose already installed skipping Faker@~0.5.11 /Users/robwormald/Dev/Code/innit-auth-server
+48 verbose already installed skipping sinon@~1.7.3 /Users/robwormald/Dev/Code/innit-auth-server
+49 verbose already installed skipping grunt-release@~0.5.1 /Users/robwormald/Dev/Code/innit-auth-server
+50 verbose already installed skipping sinon-chai@~2.4.0 /Users/robwormald/Dev/Code/innit-auth-server
+51 verbose already installed skipping coffee-script@~1.6.3 /Users/robwormald/Dev/Code/innit-auth-server
 52 verbose already installed skipping grunt-retire@~0.1.21 /Users/robwormald/Dev/Code/innit-auth-server
 53 verbose url raw chai
 54 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
 55 verbose url resolved https://registry.npmjs.org/chai
-56 info trying registry request attempt 1 at 23:50:35
+56 info trying registry request attempt 1 at 23:57:35
 57 verbose etag "DB3GX44O7AEYTH3TPU1RWRANK"
 58 http GET https://registry.npmjs.org/chai
 59 error git clone git://github.com/InnitApps/innit-auth-server-ui.git Cloning into bare repository '/Users/robwormald/.npm/_git-remotes/git-github-com-InnitApps-innit-auth-server-ui-git-3ecce1a1'...

@@ -42,7 +42,6 @@
     "redis": "~0.9.0",
     "form-urlencoded": "0.0.3",
     "mellt": "~1.0.0",
-    "modinha-redis": "0.0.6",
-    "innit-auth-server-ui" : "git://github.com/InnitApps/innit-auth-server-ui.git"
+    "modinha-redis": "0.0.6"
   }
 }
