@@ -5,7 +5,7 @@
 var cwd          = process.cwd()
   , env          = process.env.NODE_ENV || 'development'
   , path         = require('path')  
-  , config       = require(path.join(cwd, 'config.' + env + '.json'))
+  , config       = require(path.join(cwd, 'config.' + env + '.js'))
   , client       = require('./redis')(config.redis)
   , express      = require('express')
   , passport     = require('passport')
