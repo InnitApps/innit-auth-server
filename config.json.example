@@ -1,7 +1,0 @@
-{
-  "local-ui": "node_modules/oauth2ui/dist",
-  "redis": {
-    "url": "redis://HOST:PORT",
-    "auth": "PASSWORD"
-  }
-}

@@ -1,9 +1,9 @@
 {
-  "name": "oauth2server",
+  "name": "innit-auth-server",
   "author": {
-    "name": "Christian Smith",
-    "email": "smith@anvil.io",
-    "url": "http://anvil.io"
+    "name": "InnitApps",
+    "email": "hello@innit.io",
+    "url": "http://innit.io"
   },
   "version": "0.0.3",
   "description": "OAuth 2.0 Server",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/christiansmith/OAuth2Server.git"
+    "url": "https://github.com/InnitApps/innit-auth-server.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -39,10 +39,10 @@
     "modinha": "0.0.20",
     "async": "~0.2.9",
     "cors": "~1.0.1",
-    "oauth2ui": "0.0.15",
     "redis": "~0.9.0",
     "form-urlencoded": "0.0.3",
     "mellt": "~1.0.0",
-    "modinha-redis": "0.0.6"
+    "modinha-redis": "0.0.6",
+    "innit-auth-server-ui" : "git+https://github.com/InnitApps/innit-auth-server-ui.git"
   }
 }
