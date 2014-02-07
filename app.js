@@ -21,13 +21,13 @@ require('./routes/')(app);
  * Start the server
  */
 
-app.start = function () {
+
   app.listen(app.settings.port, function () {
     console.log(
         'OAuth2Server is running on port ' + app.settings.port
     );   
   });
-}
+
 
 
 /**
@@ -41,6 +41,4 @@ module.exports = app;
  * Start the server in shell from development directory
  */
 
-
-  app.start()
 
