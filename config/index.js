@@ -48,7 +48,7 @@ module.exports = function (app) {
 
     // cross-origin support
     app.use(cors());
-
+app.options('*', cors());
     // Explicitly register app.router
     // before error handling.
     app.use(app.router);
