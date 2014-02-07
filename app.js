@@ -41,6 +41,6 @@ module.exports = app;
  * Start the server in shell from development directory
  */
 
-if (!module.parent) {
+
   app.start()
-}
+
