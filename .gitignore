@@ -2,3 +2,5 @@ config.json
 config.*.json
 data
 *.swp
+
+config.development.js
