@@ -12,7 +12,7 @@ var cwd          = process.cwd()
   , RedisStore   = require('connect-redis')(express)
   , sessionStore = new RedisStore({ client: client })
   , cors         = require('cors')
-  ;
+  ; 
 
 
 /**
@@ -25,7 +25,7 @@ module.exports = function (app) {
 
     // default settings
     app.set('port', process.env.PORT || config.port || 3000);
-    app.set('local-ui', path.join(cwd, 'node_modules/oauth2ui/dist'));
+    app.set('local-ui', path.join(cwd, 'ui/app'));
 
     // config file settings
     Object.keys(config).forEach(function (key) {
