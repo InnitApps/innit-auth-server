@@ -3,7 +3,7 @@
  */
 
 var cwd          = process.cwd()
-  , env          = 'production' || 'development'
+  , env          = 'development'
   , path         = require('path')  
   , config       = require(path.join(cwd, 'config.' + env + '.js'))
   , client       = require('./redis')(config.redis)
@@ -25,7 +25,7 @@ module.exports = function (app) {
 
     // default settings
     app.set('port', process.env.PORT || config.port || 3000);
-    app.set('local-ui', path.join(cwd, 'ui/app'));
+    app.set('local-ui', path.join(cwd, 'app_ui/app'));
 
     // config file settings
     Object.keys(config).forEach(function (key) {
