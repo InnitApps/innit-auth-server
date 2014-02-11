@@ -7,4 +7,4 @@ module.exports = {
     "url": process.env.REDISCLOUD_URL,
     "password" : redisURL.auth.split(":")[1]
   }
-}
+} 
