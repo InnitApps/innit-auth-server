@@ -27,15 +27,15 @@ module.exports = function (app) {
 
     var headers = req.headers
       , authorization = headers['authorization'] || ''
-      , access_token = authorization.replace(/^Bearer\s/, '')
-      ;
+      , access_token = authorization.replace('Bearer: ', '')
 
+    
     // fail if there is no access token in the Authorization header
     if (!access_token || access_token === '') { 
       return next(new InvalidRequestError('Missing access token')); 
     }
 
-    Token.verify(access_token, 'https://authorizationserver.tld', function (err, verified) {
+    Token.verify(access_token, 'innit.io', function (err, verified) {
       if (err && err.message === 'insufficient_scope') {
         next(new InsufficientScopeError());
       } else if (err) {

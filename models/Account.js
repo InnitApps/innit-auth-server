@@ -20,6 +20,7 @@ var client        = require('../config/redis')
 var Account = Modinha.define('accounts', {
   name:     { type: 'string' },
   email:    { type: 'string', required: true, unique: true, format: 'email' },
+  domain:   { type: 'string'},
   roles:    { type: 'array',  default: [] },
   hash:     { type: 'string', private: true, set: hashPassword }
 });

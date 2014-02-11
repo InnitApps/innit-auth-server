@@ -143,6 +143,8 @@ Token.verify = function (access, scope, callback) {
       return callback(new InvalidTokenError('Expired access token'));
     }
 
+    console.log(token)
+    console.log(scope)
     if (token.scope.indexOf(scope) === -1) {
       return callback(new InsufficientScopeError());
     }
