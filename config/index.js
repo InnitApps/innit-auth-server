@@ -25,7 +25,7 @@ module.exports = function (app) {
 
     // default settings
     app.set('port', process.env.PORT || config.port || 3000);
-    app.set('local-ui', path.join(cwd, './ui/app'));
+    app.set('local-ui', path.join(cwd, 'ui/app'));
 
     // config file settings
     Object.keys(config).forEach(function (key) {
