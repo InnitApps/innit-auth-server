@@ -3,7 +3,7 @@
  */
 
 var cwd          = process.cwd()
-  , env          = 'development'
+  , env          = 'production'
   , path         = require('path')  
   , config       = require(path.join(cwd, 'config.' + env + '.js'))
   , client       = require('./redis')(config.redis)
