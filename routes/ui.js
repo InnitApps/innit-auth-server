@@ -5,7 +5,7 @@ module.exports = function (app) {
       next();
     } else {
       res.sendfile('index.html', { 
-        root: app.settings['local-ui']
+        root: '/ui/app'
       });
     } 
   };
