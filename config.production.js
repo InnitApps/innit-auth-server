@@ -1,11 +1,8 @@
-var url = require('url');
-var redisURL = url.parse(process.env.REDISCLOUD_URL);
-var path = require('path')
 
 module.exports = {
-  "local-ui" : path.resolve('app_ui/dist'), 
+  "local-ui": "app_ui/app", 
   "redis": {
-    "url": process.env.REDISCLOUD_URL,
-    "password" : redisURL.auth.split(":")[1]
+    "url": "redis://pub-redis-11315.us-east-1-4.3.ec2.garantiadata.com:11315/redis-app21986323",
+    "auth" : "2oKII7vzYPbvUugg"
   }
-} 
+}
